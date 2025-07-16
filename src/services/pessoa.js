@@ -1,7 +1,7 @@
 class ServicePessoa{
-    PegarTodos(){
-        return ['joao','ana'];
+    PegarTodos(){ //método pegar todos
+        return ['joao','ana']; //retorna valores que criei
     }
 }
 
-module.exports = ServicePessoa;
+module.exports = ServicePessoa; //exporta a classe ServicePessoa
