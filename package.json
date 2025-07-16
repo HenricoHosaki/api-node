@@ -1,0 +1,18 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch-index.js",
+    "test": "jest test/*"
+  },
+  "author": "Henrico Hosaki Silva",
+  "license": "ISC",
+  "description": "Estruturação API com MVC",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
